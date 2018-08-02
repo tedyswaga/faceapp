@@ -99,7 +99,7 @@ class App extends Component {
     return (
 
       <div className="App">
-          <Navigation isSignedIn={this.isSignedIn} onRouteChange={this.onRouteChange} />
+          <Navigation isSignedIn={this.state.isSignedIn} onRouteChange={this.onRouteChange} />
 
            
          
